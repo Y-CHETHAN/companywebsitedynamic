@@ -1,0 +1,16 @@
+{% extends "spl/base.html" %}
+
+{% block content %}
+<div class="productcontent">
+    <h1>Our Premium Products</h1>
+    {% for product in products %}
+    <div class="productitem">
+        <div class="itemimage">
+            <img src="/photos/{{product.image}}" alt="product image">
+        </div>
+        <div class="itemname">{{ product.name }}</div>
+        <div class="itemprice">Price: Rs.{{ product.price }} </div>
+    </div>
+    {% endfor %}
+</div>
+{% endblock  %}

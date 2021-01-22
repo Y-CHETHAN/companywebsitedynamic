@@ -1,0 +1,13 @@
+{% extends "spl/base.html" %}
+
+{% block content %}
+{% for people in people %}
+    <div class="peopleitem">
+        <div class="peopleimage" style="margin-top: 20px;">
+            <img src="/photos/{{ people.image }}" alt="people">
+        </div>
+        <h2 class="peoplename">{{ people.name }}</h2>
+        <h3 class="peopledesignation">{{ people.designation }}</h3>
+    </div>
+    {% endfor %}
+{% endblock %}
