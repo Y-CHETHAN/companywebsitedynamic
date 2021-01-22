@@ -165,5 +165,8 @@ Publish the website in the given URL.
 
 ![output](./static/img/template.jpg)
 
+##  GitHub Repo URL:
+https://github.com/Y-CHETHAN/companywebsitedynamic.git
+
 ## RESULT:
 Thus a website is designed for the chip manufacturing company and is hosted in the URL http://chethan.student.saveetha.in:8000/. HTML code is validated.
